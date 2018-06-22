@@ -1,0 +1,1402 @@
+<!doctype html>
+<!-- Server: sfs-consume-18 -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+        
+        
+        <script type='text/javascript'>
+            /*global unescape, window, SF*/
+            // Setup our namespace
+            if (!window.SF) { window.SF = {}; }
+            if (!window.net) { window.net = {}; }
+            if (!window.net.sf) { window.net.sf = {}; }
+            SF.Ads = {};
+            SF.cdn = '//a.fsdn.com/con';
+            SF.deploy_time = '1490296166';
+            
+            SF.Breakpoints = {
+              small: 0,
+              medium: 640,
+              leaderboard: 728,
+              large: 1038,
+              xlarge: 1280,
+              xxlarge: 1366
+            };
+            SF.initial_breakpoints_visible = {};
+            for (var bp in SF.Breakpoints) {
+                if (!SF.Breakpoints.hasOwnProperty(bp)) {
+                    continue;
+                }
+                SF.initial_breakpoints_visible[bp] = !window.matchMedia || window.matchMedia('(min-width: ' + SF.Breakpoints[bp] + 'px)').matches;
+            }
+        </script><script type='text/javascript'>
+            SF.Ads.prebidOptions = {
+                showIndicators: false,
+                analytics: true
+            };
+            SF.Ads.prebidUnits = [];
+            if (SF.initial_breakpoints_visible.leaderboard) {
+                SF.Ads.prebidUnits.push({
+                    bids: [{'params': {'tagid': '364648'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '728x90', 'ct': '472223'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 8841121}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'position': 'atf', 'sizes': [2], 'accountId': '15680', 'zoneId': '486110'}, 'bidder': 'rubicon'},
+                            {'params': {'placementId': 9265078}, 'bidder': 'appnexus'},
+                            {'params': {'placement': 4224498, 'network': '10676.1'}, 'bidder': 'aol'},
+                            {'params': {'placementId': 9726874}, 'bidder': 'springserve'},
+                            {'params': {'siteID': '188656', 'id': '7'}, 'bidder': 'indexExchange'},
+                            ],
+                    code: 'div-gpt-ad-1393435113147-0',
+                    sizes: [728, 90],
+                    tag: 'SF_ProjectFiles_728x90_A',
+                    
+                });
+            }
+            if (true) {
+                SF.Ads.prebidUnits.push({
+                    bids: [{'params': {'tagid': '364646'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '300x250', 'ct': '472221'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 9319285}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'position': 'atf', 'sizes': [15, 10], 'accountId': '15680', 'zoneId': '486110'}, 'bidder': 'rubicon'},
+                            {'params': {'placementId': 9265076}, 'bidder': 'appnexus'},
+                            {'params': {'placement': 4224505, 'network': '10676.1'}, 'bidder': 'aol'},
+                            {'params': {'placementId': 9726868}, 'bidder': 'springserve'},
+                            {'params': {'siteID': '188654', 'id': '5'}, 'bidder': 'indexExchange'},
+                            ],
+                    code: 'div-gpt-ad-1392147725721-0',
+                    sizes: [[300, 250], [300, 600], [300, 1050]],
+                    tag: 'SF_ProjectFiles_300x250_A',
+                    
+                });
+            }
+            if (true) {
+                SF.Ads.prebidUnits.push({
+                    bids: [{'params': {'tagid': '364647'}, 'bidder': 'sovrn'},
+                            {'params': {'cp': 558092, 'cf': '300x250', 'ct': '472222'}, 'bidder': 'pulsepoint'},
+                            {'params': {'placementId': 8829468}, 'bidder': 'brealtime'},
+                            {'params': {'siteId': '103240', 'sizes': [15], 'accountId': '15680', 'zoneId': '486112'}, 'bidder': 'rubicon'},
+                            {'params': {'placementId': 9265082}, 'bidder': 'appnexus'},
+                            {'params': {'placement': 4224503, 'network': '10676.1'}, 'bidder': 'aol'},
+                            {'params': {'placementId': 9726871}, 'bidder': 'springserve'},
+                            {'params': {'siteID': '188655', 'id': '6'}, 'bidder': 'indexExchange'},
+                            ],
+                    code: 'div-gpt-ad-1392148208789-0',
+                    sizes: [300, 250],
+                    tag: 'SF_ProjectFiles_300x250_B',
+                    
+                });
+            }
+            SF.Ads.prebidAdjustments = {"bidder_deflations": {"komoona": 0.92, "sovrn": 0.85, "aardvark": 0.99, "aol": 0.78, "brealtime": 0.87, "rubiconlite": 0.9, "appnexus": 0.86, "pulsepoint": 0.85, "rubicon": 0.94, "indexexchange": 0.93, "springserve": 0.86}, "inflation": 1.2, "floor": 0.02};
+        </script>
+        <script type="text/javascript" id="pbjs_script" data-dom="https://d3tglifpd8whs6.cloudfront.net"  src="//a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js?1490296166" ></script>
+        
+        <meta id="project_name" name="project_name" content="weka">
+        
+        <meta name="description" content="Machine learning software to solve data mining problems">
+        <meta name="keywords" content="Machine Learning,  Open Source, Open Source Software, Development, Community, Source Code, Secure,  Downloads, Free Software">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weka -  Browse /weka-3-6 at SourceForge.net</title>
+        <link rel="shortcut icon" href="//a.fsdn.com/con/img/sftheme/favicon.ico">
+        
+        <script type="text/javascript">
+            /*global unescape, window, console, jQuery, $, net, SF, DD_belatedPNG, ga */
+            if (!window.SF) {
+                window.SF = {};
+            }
+            SF.ad_block_measurement = true;
+        </script>
+        
+<script src="//a.fsdn.com/con/js/sftheme/vendor/modernizr.3.3.1.custom.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/jquery-1.11.1.min.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.core.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/bootstrap.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/sticky.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/shared_head.js?1490296166" type="text/javascript"></script>
+
+
+<!--[if lt IE 7 ]>
+  <script src="//a.fsdn.com/con/js/sftheme/vendor/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->
+
+
+<link href='//fonts.googleapis.com/css?family=Ubuntu:regular' rel='stylesheet' type='text/css'>
+<style type="text/css">
+    @font-face {
+        font-family: "Pictos";
+        src: url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.eot');
+        src: local("☺"), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.woff') format('woff'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.ttf') format('truetype'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.svg') format('svg');
+    }
+</style>
+ 
+<link rel="stylesheet" href="//a.fsdn.com/con/css/sf-files.css?1490296166" type="text/css">
+
+
+
+        <style type="text/css">.L926a005943a1ae7be6c1e4f7c731e32c9007300e { display: none !important; }</style>
+
+        
+<script type="text/javascript">
+    SF.adblock = true;
+</script><script type='text/javascript'>
+       /*global Foundation */
+           /*global googletag, bizxPrebid */
+       var gptadslots=[];
+       var gptadHandlers={};
+       var gptadRenderers=[];
+       var gptadComplements={};
+
+       googletag.cmd.push(function() {
+           var leaderboard = googletag.sizeMapping()
+               .addSize([970, 200], [[970, 250], [728, 90]])
+               .addSize([728, 200], [728, 90])
+               .build();
+
+            //prebid_log('GPT push define slots and targeting');
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_728x90_A', [728, 90], 'div-gpt-ad-1393435113147-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['weka', 'ai', 'java', 'scientific', 'machinelearning'])
+                                                        .setTargeting('shortname', 'weka')
+                                                        .setTargeting('aud', ['developers', 'endusers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/weka/files/weka-3-6/')
+                                                        .setTargeting('sz', '728x90')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_300x250_A', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-1392147725721-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['weka', 'ai', 'java', 'scientific', 'machinelearning'])
+                                                        .setTargeting('shortname', 'weka')
+                                                        .setTargeting('aud', ['developers', 'endusers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/weka/files/weka-3-6/')
+                                                        .setTargeting('sz', '300x250,300x600,300x1050')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_300x250_B', [300, 250], 'div-gpt-ad-1392148208789-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['weka', 'ai', 'java', 'scientific', 'machinelearning'])
+                                                        .setTargeting('shortname', 'weka')
+                                                        .setTargeting('aud', ['developers', 'endusers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/weka/files/weka-3-6/')
+                                                        .setTargeting('sz', '300x250')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/41014381/Sourceforge/SF_ProjectFiles_HubIcon_200x90_A', [200, 90], 'div-gpt-ad-1392148098424-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['weka', 'ai', 'java', 'scientific', 'machinelearning'])
+                                                        .setTargeting('shortname', 'weka')
+                                                        .setTargeting('aud', ['developers', 'endusers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/weka/files/weka-3-6/')
+                                                        .setTargeting('sz', '200x90')
+                                                        .setTargeting('page_type', 'pg_files'));
+            gptadslots.push(googletag.defineSlot('/7346874/SF-300x250', [300, 250], 'div-gpt-ad-1392148208795-0')
+                                                    .addService(googletag.pubads())
+                                                        .setTargeting('tpc', ['weka', 'ai', 'java', 'scientific', 'machinelearning'])
+                                                        .setTargeting('shortname', 'weka')
+                                                        .setTargeting('aud', ['developers', 'endusers'])
+                                                        .setTargeting('mirror', 'False')
+                                                        .setTargeting('dc_ref', 'https://sourceforge.net/projects/weka/files/weka-3-6/')
+                                                        .setTargeting('sz', '300x250')
+                                                        .setTargeting('page_type', 'pg_files'));
+            
+
+            googletag.pubads().setTargeting('requestSource', 'GPT');
+            googletag.pubads().enableAsyncRendering();
+
+            googletag.pubads().collapseEmptyDivs();
+            googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+                var unitName = event.slot.getName();
+                if ( unitName in gptadHandlers ) {
+                   try {
+                       SF.Ads.RenderHandlers[gptadHandlers[unitName]].call(this, event);
+                   } catch (e) {
+                   }
+                }
+            });
+            googletag.pubads().addEventListener('impressionViewable', SF.Ads.RenderHandlers.viewabilityInstrumentation);
+            
+            googletag.pubads().addEventListener('slotRenderEnded', SF.Ads.listenerForBlockThis);
+            bizxPrebid.Ads.pushToGoogle();
+       
+            googletag.enableServices();
+        });
+   </script> 
+
+        
+
+        
+<!-- CCM Tag -->
+<script type="text/javascript">
+  (function () {
+    /*global _ml:true, window */
+    _ml = window._ml || {};
+    _ml.eid = '771';
+
+    var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+    mltag.type = 'text/javascript'; mltag.async = true;
+    mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+    s.parentNode.insertBefore(mltag, s);
+  })();
+</script>
+<!-- End CCM Tag -->
+
+        
+        <script type="text/javascript" src="//a.fsdn.com/con/js/adframe.js?1490296166"></script>
+        <script type="text/javascript">
+
+            /*jshint ignore:start*/
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            /*jshint ignore:end*/
+
+            //var $ = jQuery.noConflict(); // jshint ignore:line
+        </script>
+        <script type="text/javascript">
+            SF.devicePixelRatio = Math.round(window.getDevicePixelRatio()*10)/10;
+                ga('create', 'UA-36130941-1', {
+                    'name': '1', 'sampleRate': 9});
+                ga('create', 'UA-36130941-1', 'auto', {   'sampleRate': 9});
+            if (typeof _ml !== 'undefined' && _ml.us) {
+                if (_ml.us.tp && _ml.us.tp.length > 0) {
+                    ga('set', 'dimension2', _ml.us.tp[0]);
+                }
+                if (_ml.us.pc && _ml.us.pc.length > 0) {
+                    ga('set', 'dimension7', _ml.us.pc[0]);
+                }
+                ga('set', 'dimension3', _ml.us.ind);
+                ga('set', 'dimension4', _ml.us.cr);
+                ga('set', 'dimension5', _ml.us.cs);
+                ga('set', 'dimension6', _ml.us.dm);
+                ga('set', 'dimension8', _ml.us.sn);
+            }
+
+            
+                ga('set', 'dimension9', 'weka');
+                ga('set', 'dimension10', 'pg_files');
+                    
+                ga('set', 'dimension13', 'Logged Out');
+                ga('set', 'dimension14', 'No');  
+                ga('set', 'dimension15', 'desktop');
+                ga('set', 'dimension16', 'sync');
+                ga('set', 'dimension17', SF.devicePixelRatio);
+                ga('send', 'pageview');
+
+            
+        </script>
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView', document.title, {
+                dimension1: 'weka',
+            dimension2: 'pg_files',
+            dimension3: SF.devicePixelRatio
+        }]);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//analytics.slashdotmedia.com/";
+            _paq.push(['setTrackerUrl', u+'sf.php']);
+            _paq.push(['setSiteId', 39]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'sf.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+
+        <script type="text/javascript"> try{(function(){ var cb = new Date().getTime(); var s = document.createElement("script"); s.defer = true; s.src = "//tag.crsspxl.com/s1.js?d=2396&cb="+cb; var s0 = document.getElementsByTagName('script')[0]; s0.parentNode.insertBefore(s, s0); })();}catch(e){} </script>
+
+
+    </head>
+    <body id="pg_files" class="
+    user
+     bluesteel
+ anonymous ">
+        
+        
+
+        <div id="busy-spinner"></div>
+        
+
+<header id="site-header">
+    <div class="wrapper">
+        <a href="/" class="logo">
+            <span>SourceForge</span>
+        </a>
+        <form method="get" action="/directory/">
+            <input type="text" id="words" name="q" placeholder="Search">
+        </form>
+        <!--Switch to {language}-->
+        <nav id="nav-site">
+            <a href="/directory/" title="Browse our software.">Browse</a>
+            <a href="/directory/enterprise" title="Browse our Enterprise software.">Enterprise</a>
+            <a href="/blog/" title="Read the latest news from the SF HQ.">Blog</a>
+            <a href="//deals.sourceforge.net/?utm_source=sourceforge&amp;utm_medium=navbar&amp;utm_campaign=homepage" title="Discover and Save on the Best Gear, Gadgets, and Software" class="featured-link" target="_blank">Deals</a>
+            <a href="/support" title="Contact us for help and feedback.">Help</a>
+            <a href="/create"  class="featured-link blue" title="Create and publish Open Source software for free.">Create</a>
+        </nav>
+        <nav id="nav-account">
+            
+              <div class="logged_out">
+                  <a href="https://sourceforge.net/auth/">Log In</a>
+                <span>or</span>
+                <a href="https://sourceforge.net/user/registration">Join</a>
+              </div>
+            
+        </nav>
+    </div>
+</header>
+<header id="site-sec-header">
+    <div class="wrapper">
+        <nav id="nav-hubs">
+            <h4>Solution Centers</h4>
+            <a href="http://goparallel.sourceforge.net/">Go Parallel</a>
+        </nav>
+        <nav id="nav-collateral">
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+            <a href="/user/newsletters?source=sfnet_header">Newsletters</a>
+
+            <a href="/cloud-storage-providers/?source=sfnet_header">Cloud Storage Providers</a>
+            <a href="/business-voip/?source=sfnet_header">Business VoIP Providers</a>
+            
+            <a href="/speedtest/?source=sfnet_header">Internet Speed Test</a>
+            
+            <a href="/call-center-providers/?source=sfnet_header">Call Center Providers</a>
+        </nav>
+    </div>
+</header>
+
+
+        <header id="page-header">
+    
+    <div id="banner-sterling" class="sterling ">
+        
+        
+        
+
+
+ 
+    
+
+
+<div class="sticky-anchor"></div>
+<div class="sticky">
+
+<div id="SF_ProjectFiles_728x90_A_wrapped" class="draper leaderboard  visibility_rules
+ v_728_leaderboard  v_970_large "
+>
+<script type="text/javascript">
+/*global googletag */
+if (SF.initial_breakpoints_visible.leaderboard) {
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1393435113147-0" ></div>');
+}());
+
+gptadRenderers['SF_ProjectFiles_728x90_A'] = function(){  // jshint ignore:line
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1393435113147-0');
+    });
+};
+gptadRenderers['SF_ProjectFiles_728x90_A']();  // jshint ignore:line
+}
+</script>
+</div>
+
+
+</div>
+<script type="text/javascript">
+    if (!SF.adblock) {
+        SF.Ads.stickyLeader = new SF.Stickify($('.sticky').eq(0));
+    }
+</script>
+        
+            
+
+
+ 
+    
+
+
+
+<div id="SF_ProjectFiles_HubIcon_200x90_A_wrapped" class="draper hub  "
+>
+<script type="text/javascript">
+/*global googletag */
+if (true) {
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148098424-0" ></div>');
+}());
+
+gptadRenderers['SF_ProjectFiles_HubIcon_200x90_A'] = function(){  // jshint ignore:line
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148098424-0');
+    });
+};
+gptadRenderers['SF_ProjectFiles_HubIcon_200x90_A']();  // jshint ignore:line
+}
+</script>
+</div>
+
+
+        
+    </div>
+    <div style="clear:both"></div>
+
+    
+    <nav id="breadcrumbs" class="breadcrumbs">
+        <ul>
+            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/">Home</a></li>
+            <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory">Browse</a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory/science-engineering/">Science &amp; Engineering</a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory/science-engineering/ai/">Artificial Intelligence</a></li><li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="/directory/science-engineering/ai/machinelearning/">Machine Learning</a></li><li class="project"><a href="/projects/weka/">Weka</a></li>
+            
+              <li>Files</li>
+            
+        </ul>
+    </nav>
+
+    <div id="project-header" itemscope itemtype="http://schema.org/SoftwareApplication">
+        
+
+<section id="project-icon" class="noneditable">
+    <img itemscope itemtype="http://schema.org/ImageObject" itemprop="image" alt="Weka Icon" 
+    
+    src="//a.fsdn.com/allura/p/weka/icon?1419556446"
+    
+ height="48" width="48"/>
+</section>
+<div id="project-title" class="project-mirror">
+    <div>
+        <div>
+            <h1 itemprop="name">
+                    <a href="/projects/weka/" itemprop="url">Weka</a></h1>
+        </div>
+        <h2>
+            Machine learning software to solve data mining problems
+        </h2>
+        <p id="maintainers" itemprop="author" itemscope itemtype="http://schema.org/Person" class="with-icon">
+        Brought to you by:
+        <a href="http://sourceforge.net/u/eibe/" itemprop="url"><span itemprop="name">eibe</span></a>, <a href="http://sourceforge.net/u/fracpete/" itemprop="url"><span itemprop="name">fracpete</span></a>, <a href="http://sourceforge.net/u/mbatchelor/" itemprop="url"><span itemprop="name">mbatchelor</span></a>, <a href="http://sourceforge.net/u/weka/" itemprop="url"><span itemprop="name">weka</span></a></p>
+        
+    </div>
+    
+
+</div>
+<nav id="project-nav">
+    
+    <div id="top_nav"><div id="top_nav_admin">
+        <ul class="dropdown">
+            
+            <li >
+                <a href="/projects/weka/?source=navbar"
+                >
+                <span>Summary</span></a>
+                
+            </li>
+            
+            <li class="selected">
+                <a href="/projects/weka/files/?source=navbar"
+                >
+                <span>Files</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/projects/weka/reviews?source=navbar"
+                >
+                <span>Reviews</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/projects/weka/support?source=navbar"
+                >
+                <span>Support</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/p/weka/wiki/?source=navbar"
+                >
+                <span>Wiki</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/p/weka/code/?source=navbar"
+                >
+                <span>Code</span></a>
+                
+            </li>
+            
+            <li >
+                <a href="/p/weka/news/?source=navbar"
+                >
+                <span>News</span></a>
+                
+            </li>
+            
+            
+        </ul>
+        
+    </div></div>
+    
+</nav>
+
+
+    </div>
+</header>
+
+
+        
+<div id="messages">
+</div>
+
+
+
+        <div id="page-body">
+    <noscript>
+        <p>The interactive file manager requires Javascript. Please enable it or use <a href="https://sourceforge.net/p/forge/documentation/Release%20Files%20for%20Download#scp">sftp or scp</a>.
+        <br/>You may still <em>browse</em> the files here.</p>
+    </noscript>
+    <div id="files">
+      <div class="download-bar">Looking for the latest version? <strong>
+            <a href="/projects/weka/files/latest/download?source=files" title="/weka-3-8/3.8.1/weka-3-8-1jre-x64.exe:  released on 2016-12-18 23:17:21 UTC">
+                <span>Download weka-3-8-1jre-x64.exe (112.0 MB)</span>
+            </a>
+            </strong>
+        </div><div class="files-breadcrumb">
+            <span class="actions"><a href="/projects/weka/rss?path=/weka-3-6" title="Monitor this project's files using RSS" data-icon="f" class="ico ico-feed"></a></span>
+            
+                <a id="home" href="/projects/weka/files/" title="Files root directory">
+            
+            Home
+            
+                </a>
+                /
+            
+            
+            <span class="current-dir">weka-3-6</span>
+
+        </div>
+
+        <table id="files_list" title="This is a list of the files for this project">
+            <col class="name-column">
+            <col class="date-column">
+            <col class="size-column">
+            <col class="downloads-column">
+            <col class="status-column">
+            <thead>
+                <tr>
+                    <th title="The file or folder's name" id="files_name_h" class="first">Name</th>
+                    <th title="The file or folder's last modified date" id="files_date_h" class="opt">Modified</th>
+                    <th title="The file size" id="files_size_h" class="opt">Size</th>
+                    <th title="The weekly download count" id="files_downloads_h" class="opt">Downloads / Week</th>
+                    <th title="A snapshot of the file or folder's status" id="files_status_h" class="typesort">Status</th>
+                </tr>
+                
+                    <tr>
+                        <th colspan="5" class="first" id="parent_folder"><a href=".." title="One level up"><span data-icon="{" class="onelevup ico ico-uparrow"></span>Parent folder</a></th>
+                    </tr>
+                
+            </thead>
+            <tbody>
+                
+                <tr title="3.6.15" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.15/"
+                           title="Click to enter 3.6.15"
+                           class="name">
+                        3.6.15</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2016-12-19 00:41:31 UTC">2016-12-19</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        33<a href="/projects/weka/files/weka-3-6/3.6.15/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:3,6,7,2,3,4,8&amp;chds=0,11" title="33 weekly downloads" alt="33 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.14" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.14/"
+                           title="Click to enter 3.6.14"
+                           class="name">
+                        3.6.14</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2016-04-14 03:49:10 UTC">2016-04-14</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        5<a href="/projects/weka/files/weka-3-6/3.6.14/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:3,1,0,0,0,1,0&amp;chds=0,11" title="5 weekly downloads" alt="5 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.13" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.13/"
+                           title="Click to enter 3.6.13"
+                           class="name">
+                        3.6.13</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2015-09-11 01:21:34 UTC">2015-09-11</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        15<a href="/projects/weka/files/weka-3-6/3.6.13/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:2,6,0,3,3,0,1&amp;chds=0,11" title="15 weekly downloads" alt="15 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.12" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.12/"
+                           title="Click to enter 3.6.12"
+                           class="name">
+                        3.6.12</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2014-12-16 01:27:55 UTC">2014-12-16</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        16<a href="/projects/weka/files/weka-3-6/3.6.12/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,4,4,2,3,1,2&amp;chds=0,11" title="16 weekly downloads" alt="16 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.11" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.11/"
+                           title="Click to enter 3.6.11"
+                           class="name">
+                        3.6.11</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2014-05-04 06:26:10 UTC">2014-05-04</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        10<a href="/projects/weka/files/weka-3-6/3.6.11/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,8,0,2,0,0,0&amp;chds=0,11" title="10 weekly downloads" alt="10 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.10" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.10/"
+                           title="Click to enter 3.6.10"
+                           class="name">
+                        3.6.10</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2013-07-31 02:09:10 UTC">2013-07-31</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        39<a href="/projects/weka/files/weka-3-6/3.6.10/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:7,7,4,11,6,3,1&amp;chds=0,11" title="39 weekly downloads" alt="39 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.9" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.9/"
+                           title="Click to enter 3.6.9"
+                           class="name">
+                        3.6.9</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2013-01-24 20:56:57 UTC">2013-01-24</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        18<a href="/projects/weka/files/weka-3-6/3.6.9/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:3,4,0,4,2,1,4&amp;chds=0,11" title="18 weekly downloads" alt="18 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.8" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.8/"
+                           title="Click to enter 3.6.8"
+                           class="name">
+                        3.6.8</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2012-08-15 00:57:16 UTC">2012-08-15</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        2<a href="/projects/weka/files/weka-3-6/3.6.8/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,2,0,0,0,0,0&amp;chds=0,11" title="2 weekly downloads" alt="2 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.7" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.7/"
+                           title="Click to enter 3.6.7"
+                           class="name">
+                        3.6.7</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2012-05-11 01:53:08 UTC">2012-05-11</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        5<a href="/projects/weka/files/weka-3-6/3.6.7/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:1,2,0,0,0,0,2&amp;chds=0,11" title="5 weekly downloads" alt="5 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.6" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.6/"
+                           title="Click to enter 3.6.6"
+                           class="name">
+                        3.6.6</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2011-10-30 21:06:50 UTC">2011-10-30</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        4<a href="/projects/weka/files/weka-3-6/3.6.6/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:1,2,0,0,1,0,0&amp;chds=0,11" title="4 weekly downloads" alt="4 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.5" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.5/"
+                           title="Click to enter 3.6.5"
+                           class="name">
+                        3.6.5</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2011-06-30 02:56:45 UTC">2011-06-30</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        2<a href="/projects/weka/files/weka-3-6/3.6.5/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,2,0,0,0,0,0&amp;chds=0,11" title="2 weekly downloads" alt="2 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.4" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.4/"
+                           title="Click to enter 3.6.4"
+                           class="name">
+                        3.6.4</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2010-12-09 20:07:45 UTC">2010-12-09</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        7<a href="/projects/weka/files/weka-3-6/3.6.4/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,7,0,0,0,0,0&amp;chds=0,11" title="7 weekly downloads" alt="7 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.3" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.3/"
+                           title="Click to enter 3.6.3"
+                           class="name">
+                        3.6.3</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2010-07-29 23:24:08 UTC">2010-07-29</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        12<a href="/projects/weka/files/weka-3-6/3.6.3/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,3,0,3,2,3,1&amp;chds=0,11" title="12 weekly downloads" alt="12 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.2" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.2/"
+                           title="Click to enter 3.6.2"
+                           class="name">
+                        3.6.2</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2010-01-12 03:26:44 UTC">2010-01-12</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        2<a href="/projects/weka/files/weka-3-6/3.6.2/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:0,2,0,0,0,0,0&amp;chds=0,11" title="2 weekly downloads" alt="2 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.1" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.1/"
+                           title="Click to enter 3.6.1"
+                           class="name">
+                        3.6.1</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2009-06-04 23:54:20 UTC">2009-06-04</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        14<a href="/projects/weka/files/weka-3-6/3.6.1/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:1,4,3,0,3,2,1&amp;chds=0,11" title="14 weekly downloads" alt="14 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+                <tr title="3.6.0" class="folder ">
+                    <th scope="row" headers="files_name_h"><span data-icon="o" class="ico ico-folder"></span>
+                        
+                        
+                        <a href="/projects/weka/files/weka-3-6/3.6.0/"
+                           title="Click to enter 3.6.0"
+                           class="name">
+                        3.6.0</a></th>
+                    <td headers="files_date_h" class="opt"><abbr title="2008-12-18 21:40:00 UTC">2008-12-18</abbr></td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">
+                        14<a href="/projects/weka/files/weka-3-6/3.6.0/stats/timeline" class="fs-stats ui-corner-all folder" rel="nofollow"><img class="fs-sparklines folder" src="https://a.fsdn.com/con/img/gallery/opa75.png" data-src="https://chart.googleapis.com/chart?cht=ls&amp;chs=20x16&amp;chco=0685c6&amp;chm=B,0685c6,0,0,0&amp;chd=t:1,4,2,0,1,0,6&amp;chds=0,11" title="14 weekly downloads" alt="14 weekly downloads" width="20" height="16" /></a></td>
+                    <td headers="files_status_h" class="status folder"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="totals"><span class="label">Totals: </span>16 Items</td>
+                    <td class="opt">&nbsp;</td>
+                    <td headers="files_size_h" class="opt"></td>
+                    <td headers="files_downloads_h" class="opt">198</td>
+                    <td headers="files_status_h">
+                        
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="files-drawer" class="fs-widget fs-drawer consumer">
+        </div>
+    </div>
+
+    
+    <div id="files-sidebar" class="scroll-fixable" data-floor-compensate="145">
+        <div class="sterling">
+        
+
+
+ 
+    
+    
+
+
+
+<div id="SF_ProjectFiles_300x250_A_wrapped" class="draper multisize  "
+>
+<script type="text/javascript">
+/*global googletag */
+if (true) {
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392147725721-0" ></div>');
+}());
+
+gptadRenderers['SF_ProjectFiles_300x250_A'] = function(){  // jshint ignore:line
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392147725721-0');
+    });
+};
+gptadRenderers['SF_ProjectFiles_300x250_A']();  // jshint ignore:line
+}
+</script>
+</div>
+
+
+        </div>
+                <aside class="sidebar-widget">
+        <header>
+        <h3>Recommended Projects</h3>
+        </header>
+    <ul class="vertical">
+
+        
+
+            
+                <li class="item odd">
+                <a href="/projects/wekaclassalgos/?source=recommended" title="WEKA Classification Algorithms"><img alt="Icon" src="//a.fsdn.com/con/img/project_default.png" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/wekaclassalgos/?source=recommended"
+                        title="Learn more about WEKA Classification Algorithms ">WEKA Classification Algorithms</a>
+                        <div class="summary">
+                        
+                        </div>
+                    </div>
+
+            </li>
+            
+                <li class="item even">
+                <a href="/projects/exceltoarffconv/?source=recommended" title="Excel to Arff Converter"><img alt="Icon" src="//a.fsdn.com/con/img/project_default.png" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/exceltoarffconv/?source=recommended"
+                        title="Learn more about Excel to Arff Converter ">Excel to Arff Converter</a>
+                        <div class="summary">
+                        
+                        </div>
+                    </div>
+
+            </li>
+            
+                <li class="item odd last">
+                <a href="/projects/rapidminer/?source=recommended" title="RapidMiner -- Data Mining, ETL, OLAP, BI"><img alt="Icon" src="//a.fsdn.com/con/img/project_default.png" /></a>
+                <div class="pinfo-content recommended">
+                <a class="project-name" href="/projects/rapidminer/?source=recommended"
+                        title="Learn more about RapidMiner -- Data Mining, ETL, OLAP, BI ">RapidMiner -- Data Mining, ETL, OLAP, BI</a>
+                        <div class="summary">
+                        
+                        </div>
+                    </div>
+
+            </li>
+            
+        
+    </ul>
+</aside>
+
+
+        
+
+
+ 
+    
+
+
+
+<div id="SF_ProjectFiles_300x250_B_wrapped" class="draper medrec  "
+>
+<script type="text/javascript">
+/*global googletag */
+if (true) {
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148208789-0" ></div>');
+}());
+
+gptadRenderers['SF_ProjectFiles_300x250_B'] = function(){  // jshint ignore:line
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148208789-0');
+    });
+};
+gptadRenderers['SF_ProjectFiles_300x250_B']();  // jshint ignore:line
+}
+</script>
+</div>
+
+
+
+        
+            <div class="sterling" id="deals-widget">
+                
+    <aside class="sidebar-widget stackcommerce-widget">
+            <header id="stackcommerce-header">
+                <img src="//a.fsdn.com/con/img/sf_logo250x32.png" width="125" height="16" alt="sourceforge.net logo" />
+                <h3>Deals</h3>
+            </header>
+            
+
+
+ 
+    
+
+
+
+<div id="SF-300x250_wrapped" class="draper medrec  "
+>
+<script type="text/javascript">
+/*global googletag */
+if (true) {
+(function(){
+    
+    document.write('<div id="div-gpt-ad-1392148208795-0" ></div>');
+}());
+
+gptadRenderers['SF-300x250'] = function(){  // jshint ignore:line
+    googletag.cmd.push(function() {
+        googletag.display('div-gpt-ad-1392148208795-0');
+    });
+};
+gptadRenderers['SF-300x250']();  // jshint ignore:line
+}
+</script>
+</div>
+
+
+    </aside>
+    
+
+            </div>
+        
+    </div>
+    
+    
+<script type="text/javascript">
+if (!SF.adblock) {
+    
+    SF.Ads.scrollFixableEnabled = true;
+    
+}
+</script>
+
+        </div>
+        
+
+        
+            
+    <div id="overlay-blockthis-wrapper">
+    <div id="overlay-blockthis">
+        <div class="instructions">
+            <h2>Thanks for helping keep SourceForge clean.</h2>
+            <p>
+            <u>Screenshot instructions:</u><br>
+            <a data-external target=_blank href="http://windows.microsoft.com/en-us/windows/take-screen-capture-print-screen#take-screen-capture-print-screen=windows-8">Windows</a><br>
+            <a data-external target=_blank href="https://support.apple.com/en-us/HT201361">Mac</a><br>
+            <a data-external target=_blank href="https://access.redhat.com/solutions/2178">Red Hat Linux</a> &nbsp;
+            <a data-external target=_blank href="https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html">Ubuntu</a>
+            </p>
+            <p>
+                <u>Click URL instructions:</u><br>
+                Right-click on ad, choose "Copy Link", then paste here &rarr;<br>
+                (This may not be possible with some types of ads)
+            </p>
+            <a class="more-info" href="https://sourceforge.net/p/forge/documentation/Report%20a%20problem%20with%20Ad%20content/" target="_blank">More information about our ad policies</a>
+        </div>
+        <form class="dropzone" action="/api/instrumentation/gpt" id="blockthisForm" method="POST">
+            <a href="#" id="btn-blockthis-close">X</a>
+            
+  <input type="hidden" name="_visit_cookie" value=""/>
+                <input type='hidden' name='timestamp' value='1490304301'/>
+                <input type='hidden' name='spinner' value='XVo9V1Jtpphl5U3_gYO:Xo97duOY'/>
+                <p class='L926a005943a1ae7be6c1e4f7c731e32c9007300e'><label for='XUec6uv4QlikjlCydzlXwcQ2Xnqs'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XUec6uv4QlikjlCydzlXwcQ2Xnqs' name='XUOc6uv4QlkO:AAJO2ohFcJT79d0' type=
+             'text'/></p>
+                <p class='L926a005943a1ae7be6c1e4f7c731e32c9007300e'><label for='XUec6uv4QligjlCydzlXwcQ2Xnqs'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XUec6uv4QligjlCydzlXwcQ2Xnqs' name='XUOc6uv4Ql0O:AAJO2ohFcJT79d0' type=
+             'text'/></p>
+            <p>Briefly describe the problem (required):
+            <input name="XXeswp_gbz2kNOhCOOijE3nBn3zQ" type="text" required>
+            </p>
+
+            <div class="upload-text">Upload screenshot of ad (required):</div>
+            <div id='upload-it'>
+                <a href="#" onclick="return false">Select a file</a>, or drag & drop file here.
+            </div>
+            <div id="upload-it-placeholder"></div> 
+
+            <div class="dropzone-previews" style="display: none"></div>
+            <div class="dz-message" style="display: none"></div> 
+            
+            <div id="dropzone-preview-template" style="display: none">
+                <div class="dz-preview dz-file-preview">
+                    <img data-dz-thumbnail src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""/>
+                    <div class="dz-success-mark"><span>✔</span></div>
+                    <div class="dz-error-mark"><span>✘</span></div>
+                    <div class="dz-error-message"><span data-dz-errormessage></span></div>
+                </div>
+            </div>
+            <p></p>
+            <p>Please provide the ad click URL, if possible:
+            <input name="XX:w5vfgC:WwLPyUnM5I5GbkPa6w" type="url">
+            </p>
+            <textarea id="gpt-info" name="XUus0oPozYUoE_cWHsjzdhZPmxQc"></textarea>
+            <input type="submit" id="btn-blockthis-submit" value="Submit Report">
+        </form>
+    </div>
+    </div>
+
+        
+
+        <script type="text/javascript" src="//ads.pro-market.net/ads/scripts/site-143572.js"></script>
+
+<footer id="site-footer">
+    <div class="wrapper">
+        <nav>
+            <h5>SourceForge</h5>
+            <a href="/about">About</a>
+            <a href="/blog/category/sitestatus/">Site Status</a>
+            <a href="http://twitter.com/sfnet_ops">@sfnet_ops</a>
+        </nav>
+        <nav>
+            <h5>Find and Develop Software</h5>
+            <a href="/create/">Create a Project</a>
+            <a href="/directory/">Software Directory</a>
+            <a href="/top">Top Downloaded Projects</a>
+        </nav>
+        <nav>
+            <h5>Community</h5>
+            <a href="/blog/">Blog</a>
+            <a href="http://twitter.com/sourceforge">@sourceforge</a>
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+        </nav>
+        <nav>
+            <h5>Help</h5>
+            <a href="http://p.sf.net/sourceforge/docs">Site Documentation</a>
+            <a href="/support">Support Request</a>
+        </nav>
+    </div>
+</footer>
+<footer id="site-copyright-footer">
+    <div class="wrapper">
+        <div id="copyright">
+            &copy; 2017 Slashdot Media. All Rights Reserved.<br />
+        </div>
+        <nav>
+            <a href="https://slashdotmedia.com/terms-of-use/">Terms</a>
+            <a href="https://slashdotmedia.com/privacy-statement/">Privacy</a>
+            <span id='teconsent'></span>
+            <a href="https://slashdotmedia.com/opt-out-choices/">Opt Out Choices</a>
+            <a href="https://slashdotmedia.com">Advertise</a>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="//a.fsdn.com/con/js/sftheme/vendor/dropzone-4.3.0.min.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/dragster.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.metadata.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery-ui-1.11.1.custom.min.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.cookie.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.tablesorter.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.scrollTo-1.4.2.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/date.format.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/string.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/handlebars.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.dotdotdot-1.8.3.min.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/jquery.notify.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/shared.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.seltext.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.drawer.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.files.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/global.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/project.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/madmen.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/foundation6.min.js?1490296166" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sandiego/chrome.js?1490296166" type="text/javascript"></script>
+
+
+        
+<div id="newsletter-floating" class="goth-form">
+    <h2>Get latest updates about Open Source Projects, Conferences and News.</h2>
+    <p>Sign up for the SourceForge newsletter:</p>
+    
+<form action="/user/newsletters/subscribe" method="post">
+    <div class="form">
+        <input type="email" name="XU:o4tfIF_N4qLtFaBz1E6fiQg5s"  placeholder="email@address.com" value="">
+    <input type="submit" value="Subscribe" class="bt">
+    </div>
+    <div class="fielderror"></div>
+
+    <p class="details">
+    <span class="fielderror"></span>
+    <label>
+        <input type="checkbox" required name="XUew6uugMyG0jlCydzlXwcQ2Xnqs" value="true" checked>I agree to receive quotes, newsletters and other information from sourceforge.net and its partners regarding IT services and products. I understand that I can withdraw my consent at any time. Please refer to our <a href="https://slashdotmedia.com/privacy-statement/">Privacy Policy</a> or <a href="/support">Contact Us</a> for more details
+        <input type="hidden" name="XW:Ewsf8a:XoWPQyFDpvNZI2gFlw" value="true">
+    </label>
+    </p>
+
+    <input type="hidden" name="source" value="floating">
+    <input type="hidden" name="XWuw6ofUd1GAmMBCEBbVQ8KNzAoE" value="US">
+    <input type="hidden" name="XRew6ofUd1GAmMBCEBbDkzKuv24M" value="ip_address">
+    <input type="hidden" name="XXeEwo:gFw20NNg2TOijE3nBn3zQ" value="sitewide">
+    <input type="hidden" name="XXeEwo:gFw20NNg2TOijE3nBn3zQ" value="research">
+    <input type="hidden" name="XXeEwo:gFw20NNg2TOijE3nBn3zQ" value="events">
+    <input type="hidden" name="XXeEwo:gFw20NNg2TOijE3nBn3zQ" value="thirdparty">
+    <input type="hidden" name="XXeEwo:gFw20NNg2TOijE3nBn3zQ" value="all">
+    <input type="hidden" name="XVeQ4ocGu9WTX6Rgys6Wx7uWgWYo" value="">
+    
+  <input type="hidden" name="_visit_cookie" value=""/>
+    <input type='hidden' name='timestamp' value='1490304301'/>
+    <input type='hidden' name='spinner' value='XVo9V1Jtpphl5U3_gYO:Xo97duOY'/>
+    <p class='L926a005943a1ae7be6c1e4f7c731e32c9007300e'><label for='XUec6uv4QlykjlCydzlXwcQ2Xnqs'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XUec6uv4QlykjlCydzlXwcQ2Xnqs' name='XUOc6uv4QlkO:AAJO2ohFcJT79d0' type=
+             'text'/></p>
+    <p class='L926a005943a1ae7be6c1e4f7c731e32c9007300e'><label for='XUec6uv4QlygjlCydzlXwcQ2Xnqs'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XUec6uv4QlygjlCydzlXwcQ2Xnqs' name='XUOc6uv4Ql0O:AAJO2ohFcJT79d0' type=
+             'text'/></p>
+</form>
+
+    <a id="btn-float-close">No, thanks</a>
+</div>
+
+        
+
+        
+            <script type="text/javascript" src="//consent-st.truste.com/get?name=notice.js&amp;domain=slashdot.org&amp;c=teconsent&amp;text=true"></script>
+            <noscript><p><img src="//analytics.slashdotmedia.com/sf.php?idsite=39" style="border:0;" alt="" /></p></noscript>
+<script type="text/javascript" src="https://a.fsdn.com/con/js/files.js?1490296166"></script>
+
+
+<script type="text/x-handlebars-template" id="file-drawer-template">
+
+<form class="bp" action="{{files_url}}{{full_path}} method="put" id="file_properties_content">
+    <table id="drawer_row">
+        <col class="name-column">
+        <col class="date-column">
+        <col class="size-column">
+        <col class="downloads-column">
+        <col class="status-column">
+        <tbody>
+            <tr title="{{name}}">
+                <td>
+                {{#if authorized }}
+                    <input type="text" class="title" name="name" value="{{name}}">
+                {{else}}
+                    <a href="{{file_title_url this}}" class="name">{{name}}</a>
+                {{/if}}
+                </td>
+                <td class="files-date"></td>
+                <td class="files-size"></td>
+                <td class="files-downloads"></td>
+                <td class="files-status status"></td>
+            </tr>
+            {{#if authorized}}
+                <tr>
+                    <td colspan="5" id="name_message" class="invalid hide"></td>
+                </tr>
+                {{#if d_type}}
+                <tr>
+                    <td colspan="5">
+                        <input type="checkbox" name="stage" id="stage" value="1" style="vertical-align: baseline" {{checked this.staged}} {{stage_onclick this}} />
+                        <label for="stage" title="Only release technicians will see this folder in the file browser." {{stage_onclick this}}>{{stage_message this staging_days}}</label>
+                        <span title="Only release technicians will see this folder in the file browser." class="ico-help">?</span>
+                        {{stage_date this}}
+                    </td>
+                </tr>
+                {{/if}}
+            {{/if}}
+        </tbody>
+    </table>
+
+    <div id="file-details">
+        {{#if f_type}}
+        <div id="file-info">
+            {{stage_date this}}
+
+            <div class="label">
+                <span>SHA1:</span>
+            </div>
+            <div class="value">
+                <pre class="selectable">{{sha1}}</pre>
+            </div>
+
+            <div class="label">
+                <span>MD5:</span>
+            </div>
+            <div class="value">
+                <pre class="selectable">{{md5}}</pre>
+            </div>
+
+            {{#if authorized}}
+            <div class="label">
+                <span>Download URL:</span>
+            </div>
+            <div class="value">
+                {{#if not_downloadable}}
+                    <pre class="selectable" title="This file will be ready for download shortly.">This file will be ready for download shortly.</pre>
+                {{else}}
+                <pre class="selectable" title="{{download_url}}">{{download_url}}</pre>
+                {{/if}}
+            </div>
+
+            <div class="label">
+                <label for="download_label">Download Button:</label>
+            </div>
+            <div class="value">
+                <span class="text"><input id="download_label" type="text" class="text" name="download_label" placeholder="Change the label used on the download button" value="{{download_label}}"></span>
+            </div>
+
+            <div class="label">
+                <label for="exclude_reports">Exclude Stats:</label>
+            </div>
+            <div class="value">
+                <span class="checkbox"><input type="checkbox" id="exclude_reports" name="exclude_reports" value="1" {{should_exclude_reports exclude_reports}}></span>
+            </div>
+            {{/if}}
+
+            {{#if legacy_release_notes}}
+            <div class="value no-label">
+                <span><a href="{{legacy_release_notes}}">Release Notes</a></span>
+            </div>
+            {{/if}}
+        </div>
+
+        <div id="download-info">
+            <div class="label" style="width: 137px">
+                <span>Downloads (All-Time):</span>
+            </div>
+            <div class="value" style="width:100px">
+                <span>{{download_display downloads}}</span>
+            </div>
+
+            {{#if authorized}}
+            <div class="label">
+                <span>Mirror Status:</span>
+            </div>
+            <div class="value">
+                <span id="mirror_count">Loading ...</span>
+            </div>
+            {{/if}}
+
+            <div class="default">
+                {{#if show_platforms}}
+                <div class="drawer-label">
+                    <span>Default Download For:</span>
+                </div>
+                {{/if}}
+                <div class="drawer-value">
+                    <ul>
+                    {{#each platforms}}
+                        {{> platform}}
+                    {{/each}}
+
+                    {{#if authorized}}
+                    <li><a href="#select_all" title="Select all">Select all</a></li>
+                    {{/if}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+
+        {{#if authorized}}
+        <hr />
+        <p><input type="submit" value="Save"> <a href="#" id="cancel" class="btn link cancel">Cancel</a></p>
+        {{/if}}
+    </div>
+</form>
+
+</script>
+
+<script type="text/x-handlebars-template" id="platform-partial">
+
+    <li>
+        <label>
+            {{#if authorized}}
+            <input type="checkbox" name="default" value="{{value}}" {{_checked}}>
+            <span title="{{title}}" class="platform-icon {{value}}">{{title}}</span>
+            {{/if}}
+
+            {{#unless authorized}}
+            {{#unless skip}}
+            <span title="{{title}}" class="platform-icon {{value}}">{{title}}</span>
+            {{/unless}}
+            {{/unless}}
+        </label>
+    </li>
+
+</script>
+
+<script type="text/javascript">
+    net.sf.files = {"3.6.12": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 29212, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.12", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.12/download", "url": "/projects/weka/files/weka-3-6/3.6.12/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.12"}, "3.6.13": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 27378, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.13", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.13/download", "url": "/projects/weka/files/weka-3-6/3.6.13/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.13"}, "3.6.10": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 168550, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.10", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.10/download", "url": "/projects/weka/files/weka-3-6/3.6.10/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.10"}, "3.6.11": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 21257, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.11", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.11/download", "url": "/projects/weka/files/weka-3-6/3.6.11/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.11"}, "3.6.14": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 5398, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.14", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.14/download", "url": "/projects/weka/files/weka-3-6/3.6.14/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.14"}, "3.6.15": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 457, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.15", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.15/download", "url": "/projects/weka/files/weka-3-6/3.6.15/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.15"}, "3.6.0": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 24414, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.0", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.0/download", "url": "/projects/weka/files/weka-3-6/3.6.0/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.0"}, "3.6.1": {"staging_days": 3, "legacy_release_notes": "/projects/weka/files//weka-3-7/3.7.1/CHANGELOG-3-7-1/view", "mirrors": 0, "downloads": 13578, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.1", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.1/download", "url": "/projects/weka/files/weka-3-6/3.6.1/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.1"}, "3.6.2": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 15338, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.2", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.2/download", "url": "/projects/weka/files/weka-3-6/3.6.2/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.2"}, "3.6.3": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 8861, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.3", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.3/download", "url": "/projects/weka/files/weka-3-6/3.6.3/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.3"}, "3.6.4": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 15644, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.4", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.4/download", "url": "/projects/weka/files/weka-3-6/3.6.4/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.4"}, "3.6.5": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 8814, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.5", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.5/download", "url": "/projects/weka/files/weka-3-6/3.6.5/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.5"}, "3.6.6": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 17580, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.6", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.6/download", "url": "/projects/weka/files/weka-3-6/3.6.6/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.6"}, "3.6.7": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 7404, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.7", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.7/download", "url": "/projects/weka/files/weka-3-6/3.6.7/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.7"}, "3.6.8": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 13882, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.8", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.8/download", "url": "/projects/weka/files/weka-3-6/3.6.8/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.8"}, "3.6.9": {"staging_days": 3, "legacy_release_notes": null, "mirrors": 0, "downloads": 20305, "exclude_reports": false, "explicitly_staged": false, "files_url": "/projects/weka/files/", "link": "", "path": "/weka-3-6", "stage": 0, "sha1": "", "name": "3.6.9", "default": "", "staged": false, "download_url": "https://sourceforge.net/projects/weka/files/weka-3-6/3.6.9/download", "url": "/projects/weka/files/weka-3-6/3.6.9/", "downloadable": false, "authorized": null, "download_label": "", "md5": "", "type": "d", "full_path": "weka-3-6/3.6.9"}};
+    net.sf.staging_days = 3;
+    $(function ($) {
+        $('#files').files();
+    });
+    $(window).load(function() {
+        $('.fs-sparklines').each(function(){
+          $(this).attr('src', $(this).attr('data-src'));
+        });
+
+        var tsConfig = {
+            widgets: ['zebra'],
+            sortForce: [[4, 0]],
+            headers: {
+                1: { sorter: 'abbrdate' },
+                2: { sorter: 'filesize' },
+                3: { sorter: 'localnum' },
+                4: { sorter: 'type'}
+            },
+            textExtraction: function (node) {
+                return node.innerHTML;
+            }
+        };
+
+        if ($('#files_list tbody tr').length) {
+            $('#files_list').tablesorter(tsConfig);
+            $('#files_list tr th#parent_folder').unbind();
+            $('#files_list tr th.header').not('.typesort').not('#parent_folder').addClass('usersortable').append('<span class="ui-icon fs-toggle"><\/span>');
+        }
+    });
+</script>
+
+        
+      </body>
+</html>
+
